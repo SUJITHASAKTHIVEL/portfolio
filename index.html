@@ -1,34 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name | Technical Writer</title>
+  <meta charset="UTF-8">
+  <title>Your Name | Technical Writer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial; margin: 40px;">
+<body>
 
-    <h1>Your Name</h1>
-    <p><b>Technical Writer</b> | API Docs | User Guides | Release Notes</p>
+  <!-- Navbar -->
+  <nav>
+    <h2>YourName</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <hr>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I'm Your Name 👋</h1>
+    <p>Technical Writer | API Docs | User Guides</p>
+  </section>
 
+  <!-- About -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a technical writer with experience in creating clear, structured, and user-friendly documentation.</p>
+    <p>
+      I specialize in writing clear, structured, and user-focused documentation.
+      I create API docs, user guides, and release notes.
+    </p>
+  </section>
 
+  <!-- Skills -->
+  <section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <li>MadCap Flare</li>
-        <li>Markdown</li>
-        <li>HTML & CSS</li>
-        <li>Git & GitHub</li>
-    </ul>
+    <div class="card">
+      <p>MadCap Flare</p>
+      <p>Markdown</p>
+      <p>HTML & CSS</p>
+      <p>Git & GitHub</p>
+      <p>API Documentation</p>
+    </div>
+  </section>
 
+  <!-- Projects -->
+  <section id="projects">
     <h2>Work Samples</h2>
-    <ul>
-        <li><a href="#">OpenTelemetry FastAPI Guide</a></li>
-        <li><a href="#">Kafka Monitoring Documentation</a></li>
-    </ul>
 
+    <div class="project">
+      <h3>OpenTelemetry FastAPI Guide</h3>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Kafka Monitoring Documentation</h3>
+      <a href="#">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
     <h2>Contact</h2>
     <p>Email: yourmail@gmail.com</p>
+    <p>LinkedIn: your-link</p>
+  </section>
 
 </body>
 </html>
